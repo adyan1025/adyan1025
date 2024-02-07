@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi! My name is Adyan Chowdhury and I'm currently studying Computer Science at Temple University's College of Science and Technology.
+Hi! My name's Adyan Chowdhury and I'm currently studying to receive my B.S. in Computer Science at Temple University's College of Science and Technology.
 
 
 ## 🌐 Socials:
