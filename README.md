@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi! My name is Adyan Chowdhury. I am a Bengali American who is currently studying Computer Science at Temple University's College of Science and Technology. I was born in Philly and grew up in the Upper Merion Township with both my parents coming from Bangladesh. I grew up in a Muslim household alongside my older sister. One of my pastimes would be playing videogames! I grew up in the generation revolving the likes of Minecraft and such. However, my favorite game would have to be "UnderTale". This game in particular inspired me to become a programmer. Another hobby I have would be creative writing! I have written numerous works in my free time —including poems, stories, and other works of fiction. To that end, I have a future aspiration that would involve combining my creating writing prowess with programming. Hopefully I am able to see that through!
+Hi! My name is Adyan Chowdhury. I am a Bengali American who is currently studying Computer Science at Temple University's College of Science and Technology.
 
 
 ## 🌐 Socials:
