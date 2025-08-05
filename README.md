@@ -1,11 +1,135 @@
-# 💫 About Me:
-Hi! My name's Adyan Chowdhury and I'm currently studying to receive my B.S. in Computer Science at Temple University's College of Science and Technology.
+# React + Flask Authentication App
 
+A modern web application with a React.js frontend and Flask backend featuring user authentication, clean landing page, and dashboard.
 
-# 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/people/Adyan-Chowdhury/pfbid0Ke9tvSJjP5ZVPkH9p6Rqgs1SyT5bqwEg5xSZCbcrgkxpM2srkeNnWVsLMst8EFizl/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/adyan1025) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/adyan-chowdhury/) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/adyan1025)
+## Features
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+- 🔐 **Secure Authentication**: User registration and login with password hashing
+- 🎨 **Modern UI**: Clean, responsive design with gradient backgrounds and animations
+- ⚡ **Fast Performance**: React frontend with Flask API backend
+- 📱 **Mobile Responsive**: Works perfectly on all device sizes
+- 🛡️ **Session Management**: Secure session handling with Flask
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Project Structure
+
+```
+/workspace/
+├── frontend/          # React.js application
+│   ├── src/
+│   │   ├── components/    # React components
+│   │   │   ├── LandingPage.js
+│   │   │   ├── LoginPage.js
+│   │   │   ├── SignUpPage.js
+│   │   │   └── Dashboard.js
+│   │   ├── App.js         # Main app component
+│   │   └── index.js       # Entry point
+│   └── package.json
+├── backend/           # Flask application
+│   ├── app.py            # Flask server
+│   └── requirements.txt  # Python dependencies
+└── README.md
+```
+
+## Setup Instructions
+
+### Prerequisites
+
+- Python 3.7+
+- Node.js 14+
+- npm or yarn
+
+### Backend Setup (Flask)
+
+1. Navigate to the backend directory:
+   ```bash
+   cd /workspace/backend
+   ```
+
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Start the Flask server:
+   ```bash
+   python app.py
+   ```
+
+The Flask backend will run on `http://localhost:5000`
+
+### Frontend Setup (React)
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd /workspace/frontend
+   ```
+
+2. Install npm dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the React development server:
+   ```bash
+   npm start
+   ```
+
+The React frontend will run on `http://localhost:3000`
+
+## Usage
+
+1. **Landing Page**: Visit `http://localhost:3000` to see the landing page
+2. **Sign Up**: Click "Sign Up" to create a new account
+3. **Login**: Use the "Login" button to sign in with existing credentials
+4. **Dashboard**: After authentication, you'll be redirected to the dashboard
+
+## API Endpoints
+
+- `POST /api/register` - User registration
+- `POST /api/login` - User login
+- `POST /api/logout` - User logout
+- `GET /api/user` - Get current user info
+
+## Technology Stack
+
+### Frontend
+- React 18.x
+- React Router DOM for routing
+- Axios for HTTP requests
+- Modern CSS with gradients and animations
+
+### Backend
+- Flask 2.3.x
+- Flask-CORS for cross-origin requests
+- Werkzeug for password hashing
+- Session-based authentication
+
+## Development Notes
+
+- The backend uses in-memory storage for demo purposes. In production, use a proper database.
+- CORS is configured to allow requests from `http://localhost:3000`
+- All passwords are hashed using Werkzeug's security functions
+- Session management is handled by Flask's built-in session support
+
+## Security Features
+
+- Password hashing with Werkzeug
+- Session-based authentication
+- CORS protection
+- Input validation and error handling
+
+## Customization
+
+You can easily customize the app by:
+- Changing colors in the CSS files
+- Modifying the landing page content
+- Adding new dashboard features
+- Integrating with a real database
+
+Enjoy building with React and Flask! 🚀
