@@ -1,4 +1,4 @@
-# 𝒶𝒹𝓎𝒶𝓃 𝒸𝒽𝑜𝓌𝒹𝒽𝓊𝓇𝓎
+### 𝒶𝒹𝓎𝒶𝓃 𝒸𝒽𝑜𝓌𝒹𝒽𝓊𝓇𝓎
 
 cs @ temple university 
 4th year · data science minor 
