@@ -6,4 +6,4 @@ cs @ temple university
 cloud solutions engineer intern @ sap
 prev. swe intern @ sap 
 
-contact: [chowdhuryadyan13[at]gmail[dot]com](chowdhuryadyan13@gmail.com)
+contact: chowdhuryadyan13[at]gmail[dot]com
